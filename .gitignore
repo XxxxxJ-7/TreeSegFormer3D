@@ -1,0 +1,13 @@
+# Ignore Python bytecode
+*.pyc
+.idea
+__pycache__/
+
+# FGI-EMIT point clouds, generated tensors, checkpoints, and predictions
+data/FGI_EMIT/raw/training.zip
+data/FGI_EMIT/raw/test.zip
+data/FGI_EMIT/raw/training/
+data/FGI_EMIT/raw/test/
+data/FGI_EMIT/raw/*.part
+data/FGI_EMIT/processed/
+work_dirs/fgi_emit/
